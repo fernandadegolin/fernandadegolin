@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://cdn.wallpaperhi.com/1280x1024/20130116/abstract%20black%20minimalistic%20white%20spectrum%20grey%201280x1024%20wallpaper_www.wallpaperhi.com_46.jpg);
+  background-position: top;
+  font-family: courier new;
+  
+}
+
+header{
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+
+}
+
+.menu{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.8);
+  
+  
+}
+
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    padding: 1em;
+
+}
+
+  .menu li{
+    list-style: none;
+    
+  }
+
+  .menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 0.5em 1em;
+
+  }
+
+.site-title{
+  margin-top: 3em;
+}
+
+.site-title, .site-subtitle, .portfolio-title{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.3em;
+}
+
+.portfolio{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em;
+  display: flex;
+}
+  .portfolio img{
+    width: 100%;
+    height: 100%;
+    padding: .3em;
+    
+  }
+
+
+
+/* .responsivo */
+@media (max-width: 375px){
+
+  .portfolio{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    display: block;
+  }
+
+    .portfolio img{
+      width: 100%;
+      height: 100%;
+      padding: .3em;
+      
+    }
+
+
+
+
+
+}

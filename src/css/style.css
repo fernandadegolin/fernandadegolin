@@ -24,7 +24,7 @@ header{
   
 }
 
-  .menu img{
+  .menu-logo{
     width: 4%;
     border-radius: 100%;
   }
@@ -63,7 +63,7 @@ header{
   margin-top: 3em;
 }
 
-.site-title, .site-subtitle, .portfolio-title{
+.site-title, .site-subtitle, .portfolio-title, .contato-title{
   text-align: center;
   text-transform: uppercase;
   padding: 0.3em;
@@ -80,7 +80,6 @@ header{
     width: 100%;
     height: 100%;
     padding: .3em;
-    
   }
 
 
@@ -110,21 +109,25 @@ header{
 }
 
 .portfolio{
-  
-  
-  margin: 1em;
+  margin: 3em;
   display: flex;
 }
   .portfolio img{
     width: 100%;
     height: 100%;
     padding: .3em;
-    
   }
 
 
+.contato{
+  margin: 3em;
+}
+
 /* .responsivo */
 @media (max-width: 375px){
+  .menu-logo{
+    display: none;
+  }
 
   .portfolio{
     text-transform: uppercase;

@@ -5,65 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./src/assets/img/arquivo (1).svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
     <title>Fernanda Degolin</title>
 
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/timeline.css">
+
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
+                <img src="./src/assets/img/fe.png" alt="">
+                
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
 
-        <div>
-            <h2 class="site-title">Fernanda Degolin</h2>
-            <h4 class="site-subtitle">Front-end developer</h4>
-        </div>
+    <div class="title">
+        <h2>Hello, World!</h2>
+        <h4> I'm Fernanda Degolin</h4>
+        <h4>Front-end Developer</h4>
+    </div>
+    
+    <img class="logo" src="./src/assets/img/fe.png" alt="">
+
 
     </header>
 
-</body>
 
 <main>
-   <div class="portfolio-title">
-       <h4>Portfólio</h4>
-   </div>
+<section>
+    <div class="portfolio-title">
+        <h4 id="portfolio">Portfólio</h4>
+    </div>
 
-    <section class="portfolio">
-        <figure>
-            <img class="img-1" src="./src/assets/img/1.png" alt="eCommerce">
-            <figcaption>{ }</figcaption>
-        </figure>
+    <ul class="timeline">
 
-        <figure>
-            <img class="img-2" src="./src/assets/img/2.png" alt=">Mobile">
-            <figcaption>{ }</figcaption>
-        </figure>
+         <!-- Item 1 -->
+         <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Profissional Jessica Crusco</span>
+                    <span class="time-wrapper"><span class="time">2020 | jun </span></span>
+                </div>
+                <div class="desc">Portfólio profissional da produto audiovisual Jessica Crusco <br> HTML | CSS | JS </div>
+                <a href="https://fernandadegolin.github.io/the.mysterious/" target="_blank">
+                    <img src="./src/assets/img/5.png">
+            </div>
+        </li>
 
-        <figure>
-            <img class="img-3" src="./src/assets/img/3.png" alt="Web design">
-            <figcaption>{ }</figcaption>
-        </figure>
+        <!-- Item 2 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">The Mysterious</span>
+                    <span class="time-wrapper"><span class="time">2020 | mai </span></span>
+                </div>
+                <div class="desc">Site The Mysterious divulgar trabalho artistico do duo experimental de artes visuais <br> HTML | CSS | JS </div>
+                <a href="https://fernandadegolin.github.io/the.mysterious/" target="_blank">
+                    <img src="./src/assets/img/5.png">
+            </div>
+        </li>
+      
 
-        <figure>
-            <img class="img-4" src="./src/assets/img/4.png" alt="Projetos pessoais">
-            <figcaption>{ }</figcaption>
-        </figure>
+        
+        <!-- Item 3 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Apple Inc.</span>
+                    <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                </div>
+                <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                <a href="" target="_blank">
+                    <img src="./src/assets/img/comunicacoes.png">
+            </div>
+        </li>
+    
+        <!-- Item 4 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Mundo Gelado {Reprograma}</span>
+                    <span class="time-wrapper"><span class="time">2019 | nov</span></span>
+                </div>
+                <div class="desc">Primeiros códigos responsivos<br> HTML | CSS</div>
+                <a href="https://mundogelado-fernandadegolin.netlify.app/" target="_blank">
+                    <img src="./src/assets/img/comunicacoes.png">
+                </a>
+            </div>
+        </li>
+      
 
-        <figure>
-            <img class="img-5" src="./src/assets/img/5.png" alt="Projetos pessoais">
-            <figcaption>{ }</figcaption>
-        </figure>
+         <!-- Item 5 -->
+         <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Primeiro Site {Reprograma}</span>
+                    <span class="time-wrapper"><span class="time">2019 | out</span></span>
+                </div>
+                <div class="desc">Primeira pagina<br> HTML | CSS</div>
+                <a href="https://fernandadegolin.netlify.app/" target="_blank">
+                    <img src="./src/assets/img/avatar.png">
+            </div>
+        </li>
+    </ul>
+    
+</section>
 
-    </section>
-
+</main>
+ 
+<footer>
+    <section class="contato">
+        <h2>Contato</h2>
+          <div class="grid icons">
+          <a target="_blank" href="https://github.com/vanessametonini">
+            Github
+          </a>
+          <a target="_blank" href="https://twitter.com/vanessametonini">
+            twitter
+          </a>
+          <a target="_blank" href="https://linkedin.com/in/vanessametonini">
+            linkedin
+          </a>
+          <a href="mailto:vanessa.tonini@caelum.com.br">
+            email
+          </a>
+        </div>
+      </section>
+</footer>
 
     
-</main>
-
+    
+</body>
 </html>

@@ -67,6 +67,7 @@ header{
   background: black;
   color: white;
   text-decoration: none;
+  transition: backgroud 2s;
   }
 
 
@@ -87,6 +88,7 @@ header{
   text-align: center;
   margin: 1em;
   display: flex;
+  
 }
 
   .portfolio img{
@@ -121,10 +123,6 @@ header{
   font-size: 1.2em;
 }
 
-.portfolio{
-  margin: 3em;
-  display: flex;
-}
 
   .portfolio img{
     width: 100%;
@@ -141,7 +139,16 @@ header{
   border: 1px solid rgb(68, 68, 68);
   text-decoration: none;
 
+}
 
+.sobre-descricao{
+  width: 65%;
+  margin: 2.5em;
+  padding: 1em;
+  height: 100%;
+  text-align: justify;
+  line-height: 2;
+  }
 
 
 
@@ -152,7 +159,8 @@ header{
 }
 
 /* .responsivo */
-@media (max-width: 480px){
+
+@media screen and (max-width: 480px){
   .menu-logo{
     display: none;
   }
@@ -182,4 +190,9 @@ header{
     text-align: center;
   }
 
+
+
+
+
 }
+

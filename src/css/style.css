@@ -187,7 +187,12 @@ header{
 
 
 }
-
+  
+@media (max-width: 375px){
+  .menu-logo{
+    display: none;
+  }
+}
 
 .portfolio-teste{
   display: grid;

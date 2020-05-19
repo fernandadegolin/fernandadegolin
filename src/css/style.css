@@ -182,20 +182,4 @@ header{
     text-align: center;
   }
 
-
-
-
-
-}
-  
-@media (max-width: 375px){
-  .menu-logo{
-    display: none;
-  }
-}
-
-.portfolio-teste{
-  display: grid;
-  gap: 2em;
-  grid-template-columns: 240px 300px;
 }

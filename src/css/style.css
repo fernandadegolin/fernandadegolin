@@ -34,13 +34,10 @@ header{
     justify-content: space-around;
     text-align: right;
     padding: 1.5em;
-    
-
 }
 
   .menu li{
     list-style: none;
-    
   }
 
   .menu a{
@@ -50,7 +47,6 @@ header{
     padding: 0.9em 1em;
     font-weight: bold;
     font-size: 1.2em;
-
   }
 
   .menu a:hover{
@@ -67,36 +63,12 @@ header{
   background: black;
   color: white;
   text-decoration: none;
-  transition: backgroud 2s;
   }
-
 
   .degolin:hover{
     background: white;
     color: black;
-    
   }
-
-.site-title, .site-subtitle, .portfolio-title, .contato-title, .sobre-title{
-  text-align: center;
-  text-transform: uppercase;
-  padding: 0.3em;
-}
-
-.portfolio{
-  text-transform: uppercase;
-  text-align: center;
-  margin: 1em;
-  display: flex;
-  
-}
-
-  .portfolio img{
-    width: 100%;
-    height: 100%;
-    padding: .3em;
-  }
-
 
 
 .title {
@@ -111,56 +83,73 @@ header{
   width: 14%;
   height: 27%;
   margin: 9em 0.2em;
-  border: solid;
+  border: solid .1em;
   border-radius: 3em;
 }
 
-.portfolio-title{
-  text-align: center;
-  padding: 0.3em;
-  text-transform: uppercase;
-  font-weight: bold;
+
+
+/* .profile */
+.sobre-title{
+  height: 30vh;
+  letter-spacing: 0.3em;
   font-size: 1.2em;
+  
+  padding: 100px 0 70px 0;
+  text-align: center;
+  text-transform: uppercase;
+  
 }
 
-
-  .portfolio img{
-    width: 100%;
-    height: 100%;
-    padding: .3em;
-  }
-
-.btn-1{      
-  border-radius: 3rem;
-  display: inline-flex;
-  padding: 0.5em .5em;
-  font-size: 1em;
-  color: rgb(68, 68, 68);
-  border: 1px solid rgb(68, 68, 68);
-  text-decoration: none;
-
+.summary {
+	margin: -30px auto 20px;
+  font-size: 0;
+  
 }
 
-.sobre-descricao{
-  width: 65%;
-  margin: 2.5em;
-  padding: 1em;
-  height: 100%;
+.sum {
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px auto 40px;
+	width: 33.33%;
+	padding: 0 40px;
+  font: 16px/34px courier new;
   text-align: justify;
-  line-height: 2;
-  }
+}
+
+.sum h3 {
+	display: block;
+	margin: 0;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+  color: #000;
+  text-align: center;
+}
 
 
 
 
+
+/* .contatos */
 
 .contato{
-  margin: 3em;
+  height: 50vh;
 }
 
-/* .responsivo */
+.contato-title{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.2em;
+  margin: 0 !important;
+  padding: 100px 0 20px 0;
+}
 
-@media screen and (max-width: 480px){
+
+
+/* .responsivo */
+@media only screen and (max-width: 767px){
   .menu-logo{
     display: none;
   }
@@ -190,9 +179,19 @@ header{
     text-align: center;
   }
 
+  .sobre-title{
+    height: 30vh;
+  }
 
 
-
+.sum {
+      display: block;
+      width: auto;
+      max-width: 600px;
+      margin-bottom: 50px;
+      padding: 0 20px;
+}
 
 }
+
 

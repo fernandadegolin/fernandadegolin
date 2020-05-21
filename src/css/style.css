@@ -296,14 +296,15 @@ header{
 
 .social{
   display: flex;
+  width: auto;
+  margin: 1em;
 }  
 
   
   .social img{
-    width: 80%;
-    margin: auto;
-    
+    width: 50%;
   }
+    
 
 
 }

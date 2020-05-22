@@ -47,6 +47,7 @@ header{
     padding: 0.9em 1em;
     font-weight: bold;
     font-size: 1.2em;
+    letter-spacing: 0.3em;
   }
 
   .menu a:hover{
@@ -144,6 +145,10 @@ header{
     background-size: 100% 10%;
   }
 
+  .sum h3:active{
+    background-size: 100% 10%;
+  }
+
 
 
 
@@ -211,7 +216,6 @@ header{
 
 .contato{
   height: vh;
-  
 }
   
   .contato-title{
@@ -303,8 +307,8 @@ header{
   
   .social img{
     width: 40%;
-  }
     
+  }
 
 
 }

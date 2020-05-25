@@ -1,0 +1,57 @@
+.cafe img{
+    width: 2.2em;
+    height: 2.2em;
+    top: .8em;
+    right: 2em;
+    transition: .5s;
+    position: absolute;
+    font-size: 20px;
+}
+
+.treme{
+    margin:1px;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;}
+    
+.treme:hover{
+        -webkit-animation: shakeimage 50ms alternate infinite ease;
+        -moz-animation: shakeimage 50ms alternate infinite ease;
+    }
+    
+    @-webkit-keyframes shakeimage{
+        from {
+        -moz-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg); 
+    }
+        to {
+        -moz-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg); 
+    }
+}
+        
+    @-moz-keyframes shakeimage{
+        from {
+        -moz-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg); 
+    }
+
+        to {
+        -moz-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
+        transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg); 
+    }
+}
+  
+  

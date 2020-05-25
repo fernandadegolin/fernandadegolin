@@ -88,6 +88,70 @@ header{
   border-radius: 3em;
 }
 
+/* .botao */
+.circles-wrapper {
+  width: 97%;
+  justify-content: flex-end;
+  display: flex;
+}
+
+  .circles-wrapper a{
+      text-decoration: none;
+      color: rgb(128, 128, 128, 0);
+  }
+
+.circle {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  margin-left: -25px;
+  background: rgb(128, 128, 128, 0.6);
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.circle:hover {
+  background: #4d4d4d;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.circle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-content {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.main-circle {
+  position: fixed;
+  top: 85%;
+  z-index: 1;
+}
+
+.main-circle .circle {
+  animation: pulse 2s;
+  animation-iteration-count: 5;
+}
+
+@keyframes pulse {
+  33.33% {
+      box-shadow: 0 0 1px 10px rgba(102, 102, 102, 0.2);
+  }
+
+  66.66% {
+      box-shadow: 0 0 1px 10px rgba(179, 179, 179, 0.2), 0 0 1px 20px rgba(179, 179, 179, 0.2);
+  }
+
+  100% {
+      box-shadow: 0 0 1px 10px rgba(179, 179, 179, 0), 0 0 1px 20px rgba(179, 179, 179, 0);
+  }
+}
 
 
 /* .profile */
@@ -280,6 +344,11 @@ header{
     margin: 6.5em 0em;
   }
 
+
+  .botao-circle{
+    display: none;
+  }
+  
   .title{
     margin: auto;
     text-align: center;
@@ -288,6 +357,7 @@ header{
   .sobre-title{
     height: 30vh;
   }
+
 
 
 .sum {

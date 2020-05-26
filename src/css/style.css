@@ -26,6 +26,7 @@ header{
   transition: .5s;
   position: absolute;
   font-size: 20px;
+  z-index: 1;
 }
 
 .cafe p{
@@ -43,91 +44,95 @@ header{
 
  @keyframes shake-top{0%,100%{transform:rotate(0deg);transform-origin:50% 0}10%{transform:rotate(2deg)}20%,40%,60%{transform:rotate(-4deg)}30%,50%,70%{transform:rotate(4deg)}80%{transform:rotate(-2deg)}90%{transform:rotate(2deg)}}
 
-/* .treme{
-  margin:1px;
-  -webkit-transition: all 0.4s linear;
-  -moz-transition: all 0.4s linear;
-  transition: all 0.4s linear;}
-  
-.treme:hover{
-      -webkit-animation: shakeimage 50ms alternate infinite ease;
-      -moz-animation: shakeimage 50ms alternate infinite ease;
-  }
-  
-  @-webkit-keyframes shakeimage{
-      from {
-      -moz-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -webkit-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -o-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -ms-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg); 
-  }
-      to {
-      -moz-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -webkit-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -o-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -ms-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg); 
-  }
-}
-      
-  @-moz-keyframes shakeimage{
-      from {
-      -moz-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -webkit-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -o-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      -ms-transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
-      transform: scale(1.0) rotate(0deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg); 
-  }
-
-      to {
-      -moz-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -webkit-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -o-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      -ms-transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg);
-      transform: scale(1.0) rotate(0deg) translateX(-1px) translateY(-1px) skewX(0deg) skewY(0deg); 
-  }
-} */
 /* .fim cafe */
 
-
-.menu{
-  position: absolute;
-  background: rgba(255, 255, 255, 0.8);
-  
+/* .menu */
+#navbar {
+	display: block;
+	position: absolute;
+	padding-top: 3em;
+	top: 0;
+  width: 100%;
 }
 
-  .menu-logo{
-    width: 4%;
-    border-radius: 100%;
-  }
-
-  .menu ul{
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
-    padding: 1.5em;
-}
-
-  .menu li{
-    list-style: none;
-  }
-
-  .menu a{
+	#navbar a {
+		display: block;
+    padding: 0.5em;
+    color: black;
     text-decoration: none;
+    text-align: right;
+    margin: 0.1em 0.5em;
     text-transform: uppercase;
-    color: black;
-    padding: 0.9em 1em;
-    font-weight: bold;
-    font-size: 1.2em;
-    letter-spacing: 0.3em;
-  }
+    font-weight: 600;
+	}
 
-  .menu a:hover{
-    color: black;
-    text-shadow: 1px 1px black;
-      
-  }
+	#navbar a:hover {
+    text-shadow: 1px 1px black;    
+	}
+
+	#navbar label {
+		display: block;
+		position: absolute;
+		top: 0rem;
+		z-index: 2;
+    right: 0;
+    
+	}
+
+	#navbar label b {
+		display: block;
+		margin: 0;
+		padding: 0 1rem;
+    font-size: 3rem;
+    font-weight: 100;
+	}
+
+#menu {
+	display: none;
+	height: 0px;			
+}
+
+@media (min-width: 767px) {
+	#navbar {
+		padding-top: 0;
+    	display: flex;
+    	justify-content: space-around;
+    	text-align: right;
+    	padding: 1.5em;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	color: black;
+    	padding: 0.9em 1em;
+    	font-weight: bold;
+    	font-size: 1.2em;
+    	letter-spacing: 0.3em;
+	}
+
+		#navbar a {
+			float: right;
+		}
+
+		#navbar label {
+			display: none;
+		}
+
+	#menu {
+		display: block;
+		}
+}
+				
+input[id="checkmenu"] {
+	display: none;
+}
+
+input[id="checkmenu"]:checked ~ #menu {
+	display: block;
+	height: auto;
+}
+
+
+
+/* .fim do menu */
 
 .site-title{
   margin-top: 3em;
@@ -402,7 +407,46 @@ header{
     right: 1em;
   }
 
+  #navbar{
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+  }
 
+  #navbar a:hover {
+    text-shadow: none;   
+	}
+
+  .tracking-in-contract:hover {
+    animation: tracking-in-contract 0.99s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-5-26 16:50:46
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract
+ * ----------------------------------------
+ */
+
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+  
   .menu-logo{
     display: none;
   }
@@ -424,7 +468,7 @@ header{
   .logo{
     width: auto;
     position: absolute;
-    margin: 6.5em 0em;
+    margin: 9em auto;
   }
 
 
@@ -433,7 +477,7 @@ header{
   }
 
   .title{
-    margin: auto;
+    margin-top: 10em;
     text-align: center;
   }
 

@@ -6,7 +6,6 @@
 
 body{
   font-family: courier new;
-  
 }
 
 header{
@@ -17,7 +16,7 @@ header{
   background-position: top;
 }
 
-/* .cafe */
+/* ---------------------------------------------- .cafe */
 .cafe img{
   width: 2.2em;
   height: 2.2em;
@@ -31,7 +30,6 @@ header{
 
 .cafe p{
   color: black;
-
 }
 
 .shake-top:hover{animation:shake-top .99s cubic-bezier(.455,.03,.515,.955) both}
@@ -44,9 +42,9 @@ header{
 
  @keyframes shake-top{0%,100%{transform:rotate(0deg);transform-origin:50% 0}10%{transform:rotate(2deg)}20%,40%,60%{transform:rotate(-4deg)}30%,50%,70%{transform:rotate(4deg)}80%{transform:rotate(-2deg)}90%{transform:rotate(2deg)}}
 
-/* .fim cafe */
+/* ---------------------------------------------- .fim cafe */
 
-/* .menu */
+/* ---------------------------------------------- .menu */
 #navbar {
 	display: block;
 	position: absolute;
@@ -76,7 +74,6 @@ header{
 		top: 0rem;
 		z-index: 2;
     right: 0;
-    
 	}
 
 	#navbar label b {
@@ -130,10 +127,7 @@ input[id="checkmenu"]:checked ~ #menu {
 	height: auto;
 }
 
-
-
-/* .fim do menu */
-
+/* ---------------------------------------------- .fim do menu */
 .site-title{
   margin-top: 3em;
 }
@@ -148,7 +142,6 @@ input[id="checkmenu"]:checked ~ #menu {
     background: white;
     color: black;
   }
-
 
 .title {
   text-align: right;
@@ -166,7 +159,7 @@ input[id="checkmenu"]:checked ~ #menu {
   border-radius: 3em;
 }
 
-/* .botao */
+/* ---------------------------------------------- .botao */
 .circles-wrapper {
   width: 97%;
   justify-content: flex-end;
@@ -178,7 +171,6 @@ input[id="checkmenu"]:checked ~ #menu {
       color: white;
       font-size: .9em;
   }
-
 
 .circle {
   position: absolute;
@@ -234,7 +226,7 @@ input[id="checkmenu"]:checked ~ #menu {
 }
 
 
-/* .profile */
+/* ---------------------------------------------- .profile */
 .sobre-title{
   height: 30vh;
   letter-spacing: 0.3em;
@@ -293,10 +285,7 @@ input[id="checkmenu"]:checked ~ #menu {
     background-size: 100% 10%;
   }
 
-
-
-
-/* .footer */
+/* ----------------------------------------------.footer */
 /*.email */
 .email {
   background-size: 50px 3px;
@@ -347,7 +336,6 @@ input[id="checkmenu"]:checked ~ #menu {
     top: 110px;
     left: 50px;
     right: 50px;
-   
     color: black;
     opacity: 0;
     -webkit-transition: all 0.2s ease-out;
@@ -369,7 +357,6 @@ input[id="checkmenu"]:checked ~ #menu {
     font-size: 1.2em;
     margin: 0 !important;
     padding: 100px 0 70px 0;
-    
   }
   
 .social{
@@ -381,20 +368,17 @@ input[id="checkmenu"]:checked ~ #menu {
   .social img{
     width: 5.5%;
     margin: 1.5em;
-    
   }
 
   .social a{
     text-decoration: none;
   }
 
-
 .copy{
   background: #F2F2F2;
   text-align: center;
   padding: 1em;
   font-size: .9em;
-  
 }
 
 
@@ -410,6 +394,10 @@ input[id="checkmenu"]:checked ~ #menu {
   #navbar{
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   }
+
+  #navbar a:active {
+    text-shadow: none;
+    }
 
   #navbar a:hover {
     text-shadow: none;   

@@ -30,10 +30,8 @@
       }
 
 
-    /* logo responsive */
+/* ---------------------------------------------- logo responsive */
 @media (max-width: 375px){
-
-
   .direction-l img {
     width: 20%;
     margin: 0.5em 0 0 -10em;
@@ -65,7 +63,6 @@
   background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-  
   z-index: 5;
 }
 
@@ -97,7 +94,6 @@
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  
 }
 
 .flag {
@@ -111,7 +107,7 @@
   text-transform: uppercase;
 }
 
-/* .sombra box */
+/* ---------------------------------------------- .sombra box */
 .direction-l .flag {
   box-shadow: -2px 2px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
 }
@@ -121,7 +117,6 @@
   -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
   box-shadow: -2px 2px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
 }
-
 
 .direction-l .flag:before,
 .direction-r .flag:before {
@@ -141,7 +136,6 @@
 
 .direction-r .flag:before {
   left: -40px;
-
 }
 
 .direction-l .flag:after {
@@ -170,15 +164,14 @@
   border-right-color: rgb(248,248,248);
   border-width: 8px;
   pointer-events: none;
-  
 }
 
 .time-wrapper {
-    display: inline;
-    line-height: 1em;
-    font-size: 0.9em;
-    color: black;
-    vertical-align: middle;
+  display: inline;
+  line-height: 1em;
+  font-size: 0.9em;
+  color: black;
+  vertical-align: middle;
 }
 
 .direction-l .time-wrapper {

@@ -152,7 +152,7 @@ input[id="checkmenu"]:checked ~ #menu {
 }
 
 .logo{
-  width: 14%;
+  width: auto;
   height: 27%;
   margin: 9em 0.2em;
   border: solid .1em;

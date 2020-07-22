@@ -3,5 +3,4 @@
 <p>Site Fernanda Degolin</p>
 
 
-<!-- Badge - Twitter -->
-  img src="https://img.shields.io/twitter/url?style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Ffesiviero"
+[![Twitter Badge](https://img.shields.io/twitter/url?style=for-the-badge&url=http%3A%2F%2Ftwitter.com%2Ffesiviero)](https://twitter/fesiviero)

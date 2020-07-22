@@ -2,6 +2,8 @@
 
 <p>Fernanda Degolin</p>
 
-
-[![Twitter Badge](https://img.shields.io/twitter/fedegolin?style=for-the-badge&url=http%3A%2F%2Ftwitter.com%2Ffesiviero)]
+<!-- Badge - LinkedIn -->
+  <a href="https://www.linkedin.com/in/fernandadegolin/">
+    <img src="https://img.shields.io/badge/-LinkedIn-lightgrey">
+  </a>
 

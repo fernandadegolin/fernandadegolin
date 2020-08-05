@@ -5,7 +5,6 @@
   </a>
 </p>
 
-<p align="center">Desenvolvedora Front-end</p>
 
 <!-- Site -->
 <p align="center">
@@ -32,5 +31,6 @@
   </a>
   </p>
   
-  
+```
+Desenvolvedora Front-end
   

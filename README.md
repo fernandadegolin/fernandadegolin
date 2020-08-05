@@ -31,7 +31,6 @@
   </a>
   </p>
   
-```
-<p align="center">
-Desenvolvedora Front-end
+
+<p align="center">Desenvolvedora Front-end</p>
   

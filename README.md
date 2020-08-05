@@ -5,7 +5,7 @@
   </a>
 </p>
 
-### <p align="center" font-family='Courier New', 'Courier', 'monospace'>Desenvolvedora Front-end</p>
+### <p align="center" font-family='Courier New'>Desenvolvedora Front-end</p>
 
 <!-- Site -->
 <p align="center">

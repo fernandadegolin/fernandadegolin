@@ -32,5 +32,6 @@
   </p>
   
 ```
+<p align="center">
 Desenvolvedora Front-end
   

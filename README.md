@@ -5,7 +5,7 @@
   </a>
 </p>
 
-#### <p align="center" margin-bottom:"1em" >Desenvolvedora Front-end</p>
+#### <p align="center" margin-bottom:10px; >Desenvolvedora Front-end</p>
 
 <!-- Site -->
 <p align="center">

@@ -7,6 +7,9 @@
 
 ### <p align="center">Desenvolvedora Front-end</p>
 
+<div  align="center">
+  <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
+  
 <!-- Site -->
 <p align="center">
   
@@ -31,7 +34,4 @@
     <img alt="Instagram" src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Ffernandadegolin%2F">
   </a>
   </p>
-  
-
-
-  
+</div>

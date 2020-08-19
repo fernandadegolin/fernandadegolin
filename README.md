@@ -5,8 +5,8 @@
   </a>
 </p>
 
-### <p align="center">Desenvolvedora Front-end</p>
-
+#### <p align="center">Desenvolvedora Front-end</p>
+<br>
 <div  align="center">
   <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" />
   

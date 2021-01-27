@@ -1,4 +1,3 @@
-
 <p align="center"> 
   <a href="">
     <img src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Grava%C3%A7%C3%A3o%20de%20Tela%202020-07-22%20%C3%A0s%2012.38.25.gif">

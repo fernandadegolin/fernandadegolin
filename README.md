@@ -1,12 +1,12 @@
-<p align="center"> 
- <a href="">
-  <img src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Grava%C3%A7%C3%A3o%20de%20Tela%202020-07-22%20%C3%A0s%2012.38.25.gif">
- </a>
-</p>
+
  
 #### <p align="center">Desenvolvedora Front-end</p>
 <br>
 <div  align="center">
+ 
+  
+  <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">
+  <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" /></a>
  
   
 <!-- Site -->

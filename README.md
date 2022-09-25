@@ -2,7 +2,7 @@
  
 #### <p align="center">Desenvolvedora Front-end</p> 
 <br> 
-<div  align="center">
+<div  align="center"> 
  
    
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">

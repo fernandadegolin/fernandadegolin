@@ -4,7 +4,6 @@
 <br> 
 <div  align="center"> 
  
-   
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">
   <img margin-top:"20px" width="80" src="https://ik.imagekit.io/fernandadegolin/fe_ubZ9V1aBl.png" /></a>
  

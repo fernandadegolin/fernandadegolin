@@ -30,5 +30,7 @@
 
   <div align='center'>
   <img src="https://komarev.com/ghpvc/?username=fernandadegolin&color=lightgrey&label=views" alt="fernandadegolin" />
+   <img src="https://github-readme-stats.vercel.app/api?username=fernandadegolin&show_icons=true&hide=&count_private=true&title_color=0f172a&text_color=64748b&icon_color=6366f1&bg_color=ffffff&hide_border=true&show_icons=true" alt="fernandadegolin's GitHub stats" /> -->
+
 </div>
 </div> 

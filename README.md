@@ -30,7 +30,7 @@
 
   
 <hr>
-<div display="flex" align="center" 
+<div display= "inline-flex" align="center" 
     width= 100%
     justifyContent=space-evenly>
  <img align="center" height="140" src="https://github-readme-stats.vercel.app/api?username=fernandadegolin&show_icons=true&hide=&count_private=true&title_color=0f172a&text_color=64748b&icon_color=6366f1&bg_color=ffffff&hide_border=true&show_icons=true&border_radius=15px&layout=compact" alt="GitHub stats" />
@@ -44,14 +44,5 @@
    
 </div>
 
-<section data-markdown>
-  <textarea data-template>
-    # Testing 
-    <div class="flex-container"><!-- .element: style="display: flex; flex-direction: row;" -->
-      <div>Item 1</div> <!-- .element: style="margin: 10px; padding: 20px;"-->
-      <div>Item 2</div> <!-- .element: style="margin: 10px; padding: 20px;"-->
-      <div>Item 3</div> <!-- .element: style="margin: 10px; padding: 20px;"-->
-    </div>
-  </textarea>
-</section>
+
 </div> 

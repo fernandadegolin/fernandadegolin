@@ -4,7 +4,7 @@
 <br> 
 <div  align="center">   
  
-  <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">  <img alt="Site" src="https://degolin.netlify.app/src/assets/avatar/fer.png">
+  <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">  <img alt="Avatar Fe" src="[https://degolin.netlify.app/src/assets/avatar/fer.png](https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer.png)">
   </a> 
  
  

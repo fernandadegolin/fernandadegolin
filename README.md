@@ -27,4 +27,8 @@
     <img alt="Instagram" src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Ffernandadegolin%2F">
   </a>
   </p>
+
+  <div align='center'>
+  <img src="https://komarev.com/ghpvc/?username=fernandadegolin&color=lightgrey&label=views" alt="fernandadegolin" />
+</div>
 </div> 

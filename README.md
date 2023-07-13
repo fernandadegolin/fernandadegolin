@@ -5,7 +5,7 @@
 <div  align="center">   
  
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank"> 
-  <img margin-top:"20px" width="80" src="[file:///Users/fernandadegolin/Documents/Fe%20Degolin/CET%20-%20Edital/Projeto/src/assets/avatar/nath.png](https://degolin.netlify.app/src/assets/avatar/fer.png)"/></a> 
+  <img margin-top:"20px" width="80" src="(https://degolin.netlify.app/src/assets/avatar/fer.png)"/></a> 
  
  
 <!-- Site -->

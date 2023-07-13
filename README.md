@@ -4,7 +4,7 @@
 <br> 
 <div  align="center">   
  
-  <a href="[https://fernandadegolin.github.io/fernandadegolin/](https://www.instagram.com/fernandadegolin)" target="_blank">  <img alt="Avatar Fe" src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png">
+  <a href="https://www.instagram.com/fernandadegolin" target="_blank">  <img alt="Avatar Fe" src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png">
   </a> 
  
  

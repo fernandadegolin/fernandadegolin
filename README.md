@@ -36,7 +36,7 @@
   </p>
 
   <hr />
-  <div display="flex" align="center" width="100%" justifyContent="space-evenly">
+  <div align="center" width="100%">
     <img
       align="center"
       height="140"

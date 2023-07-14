@@ -38,7 +38,6 @@
   <hr />
   <div align="center">
     <img
-      align="center"
       height="140"
       src="https://github-readme-stats.vercel.app/api?username=fernandadegolin&show_icons=true&hide=&count_private=true&title_color=0f172a&text_color=64748b&icon_color=6366f1&bg_color=ffffff&hide_border=true&show_icons=true&border_radius=15px&layout=compact"
       alt="GitHub stats"

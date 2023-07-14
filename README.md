@@ -1,5 +1,5 @@
 ####
-<p align="center">Desenvolvedora Front-end</p>
+<h2 align="center">Desenvolvedora Front-end</h2>
 
 <br />
 <div align="center">

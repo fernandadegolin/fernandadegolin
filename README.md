@@ -21,16 +21,12 @@
         src="https://img.shields.io/twitter/url?label=Site&logoColor=white&style=for-the-badge&url=https%3A%2F%2Ffernandadegolin.github.io%2Ffernandadegolin%2F"
       />
     </a>
-
-    <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/fernandadegolin/">
       <img
         alt="LinkedIn"
         src="https://img.shields.io/twitter/url?label=linkedin&logo=linkedin&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ffernandadegolin%2F"
       />
-    </a>
-
-    <!-- Instagram -->
+    </a>   <!-- Instagram -->
     <a href="https://www.instagram.com/fernandadegolin/">
       <img
         alt="Instagram"

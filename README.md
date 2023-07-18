@@ -28,7 +28,7 @@
       />
     </a>   <!-- Instagram -->
     <a href="https://www.instagram.com/fernandadegolin/">
-      <img
+      <img width= "35"
         alt="Instagram"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"
         

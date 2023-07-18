@@ -30,7 +30,9 @@
     <a href="https://www.instagram.com/fernandadegolin/">
       <img
         alt="Instagram"
-        src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Ffernandadegolin%2F"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"
+        
+<!--         src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fwww.instagram.com%2Ffernandadegolin%2F" -->
       />
     </a>
   </p>

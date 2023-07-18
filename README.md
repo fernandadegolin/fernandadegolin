@@ -14,17 +14,22 @@
   <p align="center"> 
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/fernandadegolin/">
-      <img width= "45"
+      <img width= "60"
         alt="LinkedIn"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/LinkedIn-novo.png"
       />
     </a>   
+    <!-- Email -->
+      <a href="mailto:fernandadegolin@hotmail.com"><img width= "60"
+        alt="Email"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Email-novo.png"/></a>
     <!-- Instagram -->
     <a href="https://www.instagram.com/fernandadegolin/">
-      <img width= "45"
+      <img width= "60"
         alt="Instagram"
-        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"
+        src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"/>
     </a>
+    
   </p>
 
 <!-- STATUS

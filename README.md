@@ -3,7 +3,7 @@
 
 <br />
 <div align="center">
-  <a href="https://www.instagram.com/fernandadegolin" target="_blank">
+  <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">
     <img
       alt="Avatar Fe"
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png"
@@ -11,16 +11,7 @@
   </a>
 
   <!-- Site -->
-  <p align="center">
-    <a
-      href="https://fernandadegolin.github.io/fernandadegolin/"
-      target="_blank"
-    >
-      <img
-        alt="Site"
-        src="https://img.shields.io/twitter/url?label=Site&logoColor=white&style=for-the-badge&url=https%3A%2F%2Ffernandadegolin.github.io%2Ffernandadegolin%2F"
-      />
-    </a>
+  <p align="center"> 
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/fernandadegolin/">
       <img width= "35"

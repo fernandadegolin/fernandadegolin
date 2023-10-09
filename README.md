@@ -18,7 +18,7 @@
         alt="LinkedIn"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/LinkedIn-novo.png"
       />
-    </a>   
+    </a>    
     <!-- Email -->
       <a href="mailto:fernandadegolin@hotmail.com"><img width= "60"
         alt="Email"

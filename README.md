@@ -12,7 +12,7 @@
    
   <!-- Site -->     
   <p align="center">    
-    <!-- LinkedIn --> 
+    <!-- LinkedIn -->  
     <a href="https://www.linkedin.com/in/fernandadegolin/"> 
       <img width= "60"
         alt="LinkedIn"

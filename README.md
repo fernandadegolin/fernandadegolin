@@ -5,7 +5,7 @@
 <div align="center">    
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank">   
     <img    
-      alt="Avatar Fe"   
+      alt="Avatar Fe"    
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png"    
     /> 
   </a>      

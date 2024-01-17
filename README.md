@@ -7,7 +7,7 @@
     <img      
       alt="Avatar Fe"      
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png"     
-    />  
+    />   
   </a>       
    
   <!-- Site -->      

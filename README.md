@@ -20,7 +20,7 @@
       />
     </a>    
     <!-- Email -->
-      <a href="mailto:fernandadegolin@hotmail.com" rel="nofollow">
+      <a href="mailto:fernandadegolin@hotmail.com">
         <img width= "60"
         alt="Email"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Outlook-novo.png"/>
@@ -31,8 +31,6 @@
         alt="Instagram"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"/>
     </a>
-    
-    
   </p>
 
 <!-- STATUS-->

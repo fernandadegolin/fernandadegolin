@@ -11,7 +11,8 @@
   </a>        
    
   <!-- Site -->      
-  <p align="center" style="text-decoration:none;">    
+  <p align="center">    
+    <div style="text-decoration:none;">
     <!-- LinkedIn -->  
     <a href="https://www.linkedin.com/in/fernandadegolin/" style="{text-decoration: none;}"> 
       <img width= "60" 
@@ -31,6 +32,7 @@
         alt="Instagram"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/Instagram-novo.png"/>
     </a>
+    </div>
   </p>
 
 <!-- STATUS-->

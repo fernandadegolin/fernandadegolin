@@ -14,7 +14,7 @@
   <p align="center">    
     <div style="text-decoration:none!important;">
     <!-- LinkedIn -->  
-    <a href="https://www.linkedin.com/in/fernandadegolin/" style="text-decoration: none !important;"> 
+    <a href="https://www.linkedin.com/in/fernandadegolin/" style="text-decoration: none!important;"> 
       <img width= "60" 
         alt="LinkedIn"
         src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/LinkedIn-novo.png"

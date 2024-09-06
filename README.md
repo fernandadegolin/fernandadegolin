@@ -8,6 +8,12 @@
       alt="Avatar Fe"           
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png"         
     />   
+    <img           
+      alt="Avatar Fe"           
+      src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/bigode-animado.gif"         
+    />   
+
+     src/assets/img/bigode-animado.gif
   </a>          
      
   <!-- Site -->         

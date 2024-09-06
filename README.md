@@ -6,10 +6,6 @@
   <a href="https://fernandadegolin.github.io/fernandadegolin/" target="_blank"> 
     <img           
       alt="Avatar Fe"           
-      src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/avatar-fer1.png"         
-    />   
-    <img           
-      alt="Avatar Fe"           
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/bigode-animado.gif"         
     />   
   </a>          

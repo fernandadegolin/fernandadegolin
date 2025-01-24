@@ -11,7 +11,7 @@
   </a>             
      
   <!-- Site -->         
-  <p align="center">    
+  <p align="center">     
     <div style="text-decoration:none!important;">
     <!-- LinkedIn -->   
     <a href="https://www.linkedin.com/in/fernandadegolin/" style="color: transparent !important;"> 

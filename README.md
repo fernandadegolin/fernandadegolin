@@ -8,7 +8,7 @@
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/bigode-animado.gif"                 
     />    
   </a>               
-      
+       
   <!-- Site -->           
   <p align="center">     
     <div style="text-decoration:none!important;">

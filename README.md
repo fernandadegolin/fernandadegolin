@@ -7,7 +7,7 @@
       alt="Avatar Fe"              
       src="https://github.com/fernandadegolin/fernandadegolin/blob/master/src/assets/img/bigode-animado.gif"                    
     />    
-  </a>               
+  </a>                
        
   <!-- Site -->           
   <p align="center">     
